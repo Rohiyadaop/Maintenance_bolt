@@ -43,11 +43,11 @@ export default function Signup() {
             placeholder="Confirm password"
           />
         </div>
-
+ <Link to="/dashboard">
         <button className="w-full border rounded-md py-2 hover:bg-gray-100">
           Sign Up
         </button>
-
+</Link>
         <div className="text-center mt-4 text-sm text-blue-600">
           <Link to="/">Already have an account? Login</Link>
         </div>
