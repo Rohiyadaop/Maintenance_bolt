@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-
+x``
 const equipmentCategorySchema = new mongoose.Schema(
   {
     name: {
